@@ -142,7 +142,7 @@ def draw():
         reset_btn.draw()
 
 
-feed_btn = Btn((0, 0), (100, 150), "Feed Me", pet.feed, GREEN)
-play_btn = Btn((0, 150), (100, 300), "Play With Me", pet.play, GREEN)
-clean_btn = Btn((0, 300), (100, 350), "Clean Me", pet.clean, GREEN)
+feed_btn = Btn((0, 100), (100, 100), "Feed Me", pet.feed, GREEN)
+play_btn = Btn((0, 220), (100, 200), "Play With Me", pet.play, GREEN)
+clean_btn = Btn((0, 440), (100, 100), "Clean Me", pet.clean, GREEN)
 reset_btn = Btn((20, 20), (100, 100), "Reset", reset, RED)
